@@ -108,8 +108,5 @@ public class AnalyzeStringDao {
         String number= input_string.replaceAll("\\D+", ",");
         return number;
     }
-    public static void main(String[] args) {
-        AnalyzeStringDao a= new AnalyzeStringDao();
-        System.out.println(a.getCharacterNumber("123sd4jjd"));
-    }
+    
 }
